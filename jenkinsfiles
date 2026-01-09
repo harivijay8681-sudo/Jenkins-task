@@ -6,7 +6,7 @@ pipeline {
         }
        stage('Clone repository') {
     steps {
-        git url: 'https://github.com/dineshd1575/jenkins_demo.git', branch: 'main'
+        git url: 'https://github.com/harivijay8681-sudo/Jenkins-task.git', branch: 'main'
         echo "Repository cloned."
     }
 }
